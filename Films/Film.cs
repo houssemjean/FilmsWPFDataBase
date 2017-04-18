@@ -10,7 +10,7 @@ namespace Films
     enum MonAvis { A_recommander , A_ne_pas_recommander, genial, pas_mal,pas_terrible, mauvais}
     class Film
     {
-        public string Titre { get; set; }
+        public string Titre { get; set; } //zebzeb
         public Genre Genre1 { get; set; }
         public Genre Genre2 { get; set; }
         public string ImagePath { get; set; }
